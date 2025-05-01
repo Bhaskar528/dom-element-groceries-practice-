@@ -1,0 +1,28 @@
+.bg-container{
+    background-color: rgb(18, 232, 232);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+.list-element{
+    font-size: 15px;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    list-style-type: decimal;
+    margin-left: 10px;
+}
